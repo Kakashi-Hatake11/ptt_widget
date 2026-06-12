@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget_container">
+
+    <!-- Wave ring + PTT button, centred -->
+    <FrameLayout
+        android:id="@+id/btn_ptt"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/iv_wave_ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription=""
+            android:src="@drawable/ic_ptt_wave_0" />
+
+        <ImageView
+            android:id="@+id/btn_ptt_icon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_mic_idle"
+            android:contentDescription="Push to talk" />
+
+    </FrameLayout>
+
+    <!-- PTT RADIO label — top centre -->
+    <TextView
+        android:id="@+id/tv_app_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="PTT RADIO"
+        android:textSize="8sp"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.2"
+        android:textStyle="bold" />
+
+    <!-- Live dot — top end corner -->
+
+    <!-- Status — bottom centre -->
+    <ImageView
+        android:id="@+id/iv_live_dot"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="20dp"
+        android:contentDescription="Live"
+        android:src="@drawable/indicator_active"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="7dp"
+        android:text="HOLD TO TALK"
+        android:textSize="8sp"
+        android:textColor="#AAAAAA"
+        android:letterSpacing="0.12"
+        android:textStyle="bold" />
+
+</FrameLayout>

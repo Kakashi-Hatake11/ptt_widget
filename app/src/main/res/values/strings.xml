@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PTT Field Comms</string>
+    <string name="widget_description">PTT Push-To-Talk quick access widget</string>
+</resources>

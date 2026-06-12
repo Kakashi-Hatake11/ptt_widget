@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0D1117</color>
+    <color name="surface">#161B22</color>
+    <color name="surface_2">#21262D</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_cyan_dim">#4000E5FF</color>
+    <color name="text_primary">#E6EDF3</color>
+    <color name="text_secondary">#7D8590</color>
+    <color name="green_active">#3FB950</color>
+    <color name="idle_bar">#3A4A5C</color>
+</resources>
